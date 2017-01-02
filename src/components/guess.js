@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default () => {
+export default (props) => {
   return(
-    <div className="guess">69</div>
+    <div className="guess">{props.num}</div>
   )
 }
